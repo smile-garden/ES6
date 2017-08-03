@@ -69,3 +69,30 @@ WeakSet在JavaScript底层做出调整，检查元素的变量引用情况。另
 
 Map和WeakMap <br>
 从数据结构的角度来说，映射（Map）跟原本的Object非常相似，都是Key/Value的键值对结构。但是Object的key必须是字符串或数字。而Map可以使用任何对象最为其key。
+
+11、类(Classes) <br>
+与JavaScript中的对象字面量不一样的是，累的属性后不能加逗号，而对象字面量则必须要加逗号。 <br>
+ES2015中若要是一个类继承于另外一个类而作为其子类，只需要在子类的名字后面加上extends {SuperClass}即可
+
+12、静态方法 <br>
+ES2015中的类机制支持static类型的方法定义  instanceof返回的是一个布尔值，intanceof只能用来判断对象和函数，不能用来判断字符串和数字等。 <br>
+ES2015的类并不能直接地定义静态成员变量，但可以用static加上get语句和set语句实现间接实现静态成员变量。
+
+13、生成器（Generator） <br>
+
+14、原生的模块化   <br>
+暴露单独接口
+暴露复盖模块
+
+15、Promise <br>
+Promise是一种用于解决回调函数无限嵌套的工具。作用是“免去”异步操作的回调函数，保证通过后续监听而得到返回值，或对错误处理。 <br>
+基本用法： <br>
+创建Promise对象 <br>
+要为一个函数赋予Promise的能力，先要创建一个Promise对象，并将其作为返回值。Promise构造函数要求传入一个函数，并带有resolve和reject参数。这是用于结束Promise等待的函数，对应的成功和失败。而我们的逻辑代码就在这个函数中进行。 <br>
+因为必须要让这个函数包裹逻辑代码，所以如果需要用到this时，则需要使用箭头函数或者在前面做一个this的别名。 <br>
+
+Promise弊端 <br>
+虽说Promise确实很优雅，但是这是在所有需要用到的异步方法都支持Promise且遵循标准。而且链式Promise强制性要求逻辑必须是线性单向的，一旦出现并行、回溯等情况。Promise便显得十分累赘。 <br>
+Promise会作为一种接口定义方法，而不是逻辑处理工具。
+
+16、Symbol  <br>
