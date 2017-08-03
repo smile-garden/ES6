@@ -96,3 +96,18 @@ Promise弊端 <br>
 Promise会作为一种接口定义方法，而不是逻辑处理工具。
 
 16、Symbol  <br>
+在JavaScript中，对象的属性名称可以是字符串或数字。而Symbol也可以。 <br>
+Symbol对象是具有唯一性的，每一个Symbol对象都是唯一的，可以用它来保证一些数据的安全性。<br>
+如果将一个Symbol隐藏于一个封闭作用域内，并作为一个对象中某属性的键，则外层作用域中便无法取得该属性的值，有效保障了一些私有库的代码安全性。 <br>
+
+Symbol.iterator   iterator 迭代器  <br>
+ES2015还为javascript带来了for...of语句    与之前for...in有什么区别
+
+
+17、Proxy（代理）中的一种新概念  <br>
+Proxy是ECMAScript中的一种新概念，其基本作用是：Proxy可以在不入侵目标对象的情况下，对逻辑进行拦截和处理。 <br>
+目前Proxy的兼容性很差，降级兼容也难以实现。
+
+
+开发实战动起来   https://www.baidu.com
+
