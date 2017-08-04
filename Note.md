@@ -112,7 +112,7 @@ Proxy是ECMAScript中的一种新概念，其基本作用是：Proxy可以在不
 更多前端学习资源  https://fenglingcong.github.io/resource/
 
 
-<h1>后记</h1>
+<h4>后记</h4>
 对于一个普通的JavaScript开发者来说，ES2015可能会让人觉得很模糊和难以学习，以为ES2015中带来了许多我们从前没有在JavaScript中接触过的概念和特性。但是经过长时间的考察，我们不难发现ES2015始终是JavaScript的发展方向之事不可避免的。因此我要在很长一段时间内都向身边的或是社区中的JavaScript开发者推广ES2015，推荐他们使用最新的技术。
 
 
